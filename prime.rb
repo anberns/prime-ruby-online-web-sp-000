@@ -1,7 +1,9 @@
 # prime
 def prime?(num)
-  if num == 1 || num == 2 || num == 3
+  if num == 2 || num == 3
     return true 
+  elsif num == 1 
+    return false
   end
   
   primes = [2,3]
