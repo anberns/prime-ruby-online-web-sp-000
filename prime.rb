@@ -23,5 +23,5 @@ def prime(num)
   result
 end
 
-prime(11)
+prime(14)
     
