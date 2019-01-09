@@ -19,6 +19,7 @@ def prime(num)
   end
   puts primes
   primes[-1] == num ? result = true : result = false
+  puts result
   result
 end
 
