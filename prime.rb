@@ -1,5 +1,5 @@
 require 'benchmark'
-require
+
 
 # prime
 def prime?(num)
