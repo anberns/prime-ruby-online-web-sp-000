@@ -7,14 +7,12 @@ def prime(num)
   primes = [2,3]
   i = 4
   while i <= num
-    is_prime = false 
     primes.each do |prime|
       if i % prime == 0 
-        is_prime = true
+        primes << i
         break
       end
     end
-    primes << i if is_prime == true 
     i += 1
   end
   puts primes
