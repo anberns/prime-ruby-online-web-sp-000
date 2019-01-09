@@ -21,5 +21,4 @@ def prime(num)
   primes[-1] == num ? true : false
 end
 
-prime(10)
     
