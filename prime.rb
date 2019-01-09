@@ -3,7 +3,7 @@ require 'benchmark'
 
 # prime
 def prime?(num)
-  benchmark.measure
+  puts benchmark.measure{
     if num == 2 || num == 3
       return true 
     elsif num == 1 
@@ -24,6 +24,7 @@ def prime?(num)
       i += 1
     end
     primes[-1] == num ? result = true : result = false
+  }
   result
 end
     
