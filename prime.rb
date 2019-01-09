@@ -17,9 +17,7 @@ def prime?(num)
     primes << i if is_prime == true 
     i += 1
   end
-  puts primes
   primes[-1] == num ? result = true : result = false
-  puts result
   result
 end
     
