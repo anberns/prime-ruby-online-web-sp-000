@@ -22,6 +22,4 @@ def prime(num)
   puts result
   result
 end
-
-prime(14)
     
