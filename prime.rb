@@ -18,7 +18,8 @@ def prime(num)
     i += 1
   end
   puts primes
-  primes[-1] == num ? true : false
+  primes[-1] == num ? result = true : result = false
+  result
 end
 
 prime(11)
